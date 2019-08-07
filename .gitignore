@@ -1,0 +1,6 @@
+venv/
+.idea/
+test.log
+geckodriver.log
+.pytest_cache
+allure/
