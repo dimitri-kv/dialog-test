@@ -37,7 +37,7 @@ python-pytest, \
 ```pytest ./test/test_f1.py --alluredir=./tests/allure``` \
 
 2.Запуск генерации(Для генерации тест-отчета через аллюр необходима java 1.8+): \
-```./allure-2.12.1/bin/allure generate ./tests/allure ./tests/allure-report --clean``` \
+```./allure-2.12.1/bin/allure generate ./tests/allure -o ./tests/allure-report --clean``` \
 3.Для просмотр отчета открыть в браузере(предпочтительно Firefox) файл: \
 ```./tests/allure-report/index.html``` \
 или если через аллюр(Для открытия тест-отчета через аллюр необходима java 1.8+): \
