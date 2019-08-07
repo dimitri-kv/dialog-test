@@ -21,7 +21,7 @@
 3.для просмотр отчета открыть в браузере(предпочтительно Firefox) файл: \
 ```[path-to-project]/allure-report/index.html``` \
 или если через аллюр(Для открытия тест-отчета через аллюр необходима java 1.8+ ): \
-```/allure-2.12.1/bin/allure open ./allure-report/```
+```/allure-2.12.1/bin/allure open ./tests/allure-report/```
 
 **При запуске тестов из проекта: \**
 Тестам необходим интерпретатор Python-3.7 и выше, \
@@ -41,7 +41,7 @@ python-pytest, \
 3.Для просмотр отчета открыть в браузере(предпочтительно Firefox) файл: \
 ```./tests/allure-report/index.html``` \
 или если через аллюр(Для открытия тест-отчета через аллюр необходима java 1.8+): \
-```/allure-2.12.1/bin/allure open ./allure-report/```
+```/allure-2.12.1/bin/allure open ./tests/allure-report/```
 
 
 
